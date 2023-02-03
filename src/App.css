@@ -1,0 +1,58 @@
+.App {
+  font-family: "Outfit", sans-serif;
+  color: black;
+}
+
+.hero-container {
+  position: relative;
+}
+
+.title-container {
+  display: block;
+  width: 55%;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.big-title {
+  font-family: "Chonburi", cursive;
+  font-size: 7rem;
+  color: black;
+  -webkit-text-stroke-width: 5px;
+}
+
+.special-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8rem;
+}
+
+.custom-color-cyan {
+  color: #65b5d1;
+}
+
+.custom-color-yellow {
+  color: #cbb358;
+}
+
+.description {
+  font-size: 1.5rem;
+  margin: 1rem;
+  font-family: "Outfit", sans-serif;
+  color: black;
+}
+
+.btn-text {
+  font-weight: 300;
+  opacity: 0.8;
+  padding: 1rem;
+  font-family: "Outfit", sans-serif;
+}
+
+.abstracts-illustration {
+  position: absolute;
+  width: 100%;
+  top: 20rem;
+  z-index: -1;
+}

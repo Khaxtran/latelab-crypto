@@ -1,0 +1,77 @@
+.squares-container {
+    position: relative;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+.big-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.has-background-cyan {
+    background-color: #65B5D1;
+}
+
+.has-background-gold {
+    background-color: #CBB358;
+}
+
+.image-container {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shiny-cyan {
+    padding: 3rem;
+ }
+
+.shiny-yellow {
+   padding: 2rem;
+}
+
+.floating-image.left {
+    position: absolute;
+    top: 65%;
+    left: 5%;
+}
+
+.floating-image.right {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    transform: rotate(10deg);
+}
+
+.image-frame {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.image-frame.right {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
